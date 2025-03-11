@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 import Navbar from './layouts/Navbar';
 import HeroSection from './layouts/HeroSection';
 import Section from './layouts/Section';
+import VisiMisi from './layouts/VisiMisi';
+import Footer from './layouts/Footer';
 
 export default function Page() {
   return (
@@ -16,6 +18,8 @@ export default function Page() {
       <Navbar />
       <HeroSection/>
       <Section/>
+      <VisiMisi/>
+      <Footer/>
     </>
     )
 }
