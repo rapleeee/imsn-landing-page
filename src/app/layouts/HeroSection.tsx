@@ -7,10 +7,10 @@ import "swiper/css/effect-fade";
 
 function HeroSection() {
   const images = [
-    "/assets/images/mining.jpg",
-    "/assets/images/mining2.jpg",
-    "/assets/images/mining3.jpg",
-    "/assets/images/mining4.jpg",
+    "/assets/images/mining.webp",
+    "/assets/images/mining2.webp",
+    "/assets/images/mining3.webp",
+    "/assets/images/mining4.webp",
   ];
 
   return (
