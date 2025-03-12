@@ -34,28 +34,28 @@ function Section() {
 
   const newsData = [
     {
-      date: "16 January 2025",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae. Lorem ipsum",
+      date: "05 Januari 2025",
+      title: "Silturahmi tambang 28.0 bersama Pak Adi Risfandi Direktur PT Mifa Bersaudara & PT Bara Energi Lestari",
       image: "/assets/images/kopdar/kopdar.jpg",
     },
     {
-      date: "15 January 2025",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae. Lorem ipsum",
+      date: "07 November 2024",
+      title: "Silaturahmi tambang 25.0 bersama Pak Wisnu Salman Direktur PT Geo Mining Berkah",
       image: "/assets/images/kopdar/kopdar2.jpg",
     },
     {
-      date: "10 January 2025",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae. Lorem ipsum",
+      date: "22 Oktober 2024",
+      title: "lorem Ipsum dolor sit amet, con et temp element nulla p whenever matt becomes",
       image: "/assets/images/kopdar/kopdar3.jpg",
     },
     {
-      date: "09 January 2025",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae. Lorem ipsum",
+      date: "09 Oktober 2024",
+      title: "Silaturahmi tambang 22.0 bersama Bang Charles Andrianto Manager Reclamation and Rehabilitation PT Vale Indonesia Tbk",
       image: "/assets/images/kopdar/kopdar4.jpg",
     },
     {
-      date: "09 January 2025",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quae. Lorem ipsum",
+      date: "18 September 2024",
+      title: "Silaturahmi tambang 20.0 bersama Pak Azwan Zam Roni HR Head Merdeka Mining Servis",
       image: "/assets/images/kopdar/kopdar5.jpg",
     },
   ];

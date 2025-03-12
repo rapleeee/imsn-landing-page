@@ -5,7 +5,6 @@ function Footer() {
     return (
         <footer className="bg-neutral-900 text-white py-8">
             <div className="max-w-6xl mx-auto px-6">
-
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                     <div className="flex justify-center md:justify-start">
                         <img src="./assets/images/LogoIMSN_no_bg.png" alt="IMSN Logo" className="w-40 h-auto" />
@@ -66,7 +65,6 @@ function Footer() {
                         ))}
                     </div>
                 </div>
-
             </div>
         </footer>
     );
