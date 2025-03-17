@@ -58,7 +58,7 @@ function Footer() {
                                 className="relative group"
                             >
                                 <Icon className="text-xl cursor-pointer hover:text-blue-400" />
-                                <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 scale-0 transition-transform group-hover:scale-100 text-xs bg-gray-800 text-white px-2 py-1 rounded">
+                                <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 scale-0 transition-transform group-hover:scale-100 text-xs bg-neutral-800 text-white px-2 py-1 rounded">
                                     {label}
                                 </span>
                             </a>
