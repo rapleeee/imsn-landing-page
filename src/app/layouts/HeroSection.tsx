@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
+import Link from "next/link";
 
 function HeroSection() {
   const images = [
@@ -25,7 +26,6 @@ function HeroSection() {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} className="relative">
-            {/* Gambar Background */}
             <img
               src={image}
               alt={`Mining ${index + 1}`}
@@ -44,9 +44,9 @@ function HeroSection() {
           Menghubungkan mahasiswa pertambangan di seluruh Indonesia
         </p>
         <div className="flex justify-center mt-8">
-          <button className="bg-[#C40000] hover:bg-[#FF0000] text-white font-bold py-2 px-4 rounded-lg">
+          <Link href="/recruitment" className="bg-[#C40000] hover:bg-[#FF0000] text-white font-bold py-2 px-4 rounded-lg">
             Join IMSN Now!
-          </button>
+          </Link>
         </div>
       </div>
     </div>

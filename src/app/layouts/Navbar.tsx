@@ -9,7 +9,7 @@ function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Team", href: "/team" },
+    { name: "Team", href: "/not-found" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Partnership", href: "/partnership" },
     { name: "Calendar Event", href: "/calendar" },
