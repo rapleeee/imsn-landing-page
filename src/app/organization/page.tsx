@@ -22,12 +22,10 @@ export default function Organization() {
                         position="Founder IMSN"
                         image="./assets/images/minig.webp"
                     />
-                    {/* Garis ke bawah */}
                     <div className="w-0.5 h-20 bg-gray-500"></div>
                 </div>
 
                 <div className="relative grid grid-cols-1 md:grid-cols-5 gap-6 ">
-                    {/* Garis horizontal yang menyambungkan anggota */}
                     <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gray-500"></div>
 
                     {members.map((member, index) => (
