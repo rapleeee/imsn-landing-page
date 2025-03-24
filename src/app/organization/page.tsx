@@ -15,24 +15,31 @@ export default function Organization() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen mt-28">
-                <div className="flex flex-col items-center p-10">
-                    <div className="flex justify-center">
-                        <MemberCard
-                            name="Samuel Christian Sitompul"
-                            position="Founder IMSN"
-                            image="./assets/images/minig.webp"
-                        />
-                    </div>
+            <div className="min-h-screen mt-28 flex flex-col items-center p-10">
+                <div className="relative flex flex-col items-center">
+                    <MemberCard
+                        name="Samuel Christian Sitompul"
+                        position="Founder IMSN"
+                        image="./assets/images/minig.webp"
+                    />
+                    {/* Garis ke bawah */}
+                    <div className="w-0.5 h-20 bg-gray-500"></div>
+                </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mt-12">
-                        {members.map((member, index) => (
-                            <MemberCard key={index} {...member} />
-                        ))}
-                    </div>
+                <div className="relative grid grid-cols-1 md:grid-cols-5 gap-6 ">
+                    {/* Garis horizontal yang menyambungkan anggota */}
+                    <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gray-500"></div>
+
+                    {members.map((member, index) => (
+                        <div key={index} className="relative flex flex-col items-center">
+
+                            <MemberCard {...member} />
+                        </div>
+                    ))}
                 </div>
             </div>
             <Footer />
         </>
     );
 }
+

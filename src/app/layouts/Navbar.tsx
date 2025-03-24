@@ -85,8 +85,8 @@ function Navbar() {
           </ul>
 
           <div className="flex gap-2">
-            <Link href="/login" className="bg-indigo-100 text-neutral-900 px-4 py-2 rounded-lg">Masuk</Link>
-            <Link href="/register" className="bg-[#C40000] text-neutral-50 px-4 py-2 rounded-lg">Daftar</Link>
+            <Link href="/auth" className="bg-indigo-100 text-neutral-900 px-4 py-2 rounded-lg">Masuk</Link>
+            <Link href="/recruitment" className="bg-[#C40000] text-neutral-50 px-4 py-2 rounded-lg">Daftar</Link>
           </div>
         </div>
 
@@ -133,8 +133,8 @@ function Navbar() {
           </ul>
 
           <div className="mt-4 space-y-2">
-            <Link href="/login" className="w-full block bg-indigo-100 text-neutral-900 px-4 py-2 rounded-lg">Masuk</Link>
-            <Link href="/register" className="w-full block bg-[#C40000] text-neutral-50 px-4 py-2 rounded-lg">Daftar</Link>
+            <Link href="/auth" className="w-full block bg-indigo-100 text-neutral-900 px-4 py-2 rounded-lg">Masuk</Link>
+            <Link href="/recruitment" className="w-full block bg-[#C40000] text-neutral-50 px-4 py-2 rounded-lg">Daftar</Link>
           </div>
         </div>
       )}
