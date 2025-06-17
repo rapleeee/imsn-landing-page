@@ -4,12 +4,13 @@ import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
 
 const members = [
-    { name: "Oktariana Meliana Putri", position: "Sekretaris IMSN", image: "./assets/images/mining.webp" }, // Ganti dengan gambar asli
-    { name: "Richar Farantino", position: "Kepala Design And Pubication", image: "./assets/images/mining4.webp" },
-    { name: "Raihan Saputra", position: "Divisi Kepala 3 IMSN", image: "./assets/images/mining3.webp" },
-    { name: "Miftahurrizka Afrah", position: "Kepala Divisi Event Management", image: "./assets/images/mining2.webp" },
-    { name: "Chelsie Three Octary", position: "Divisi Kepala 5 IMSN", image: "./assets/images/mining.webp" },
+    { name: "Oktariana Meliana Putri", position: "Sekretaris IMSN", image: "./assets/images/photos/pp.png" }, // Ganti dengan gambar asli
+    { name: "Richar Farantino", position: "Kepala Design And Pubication", image: "./assets/images/photos/pp.png" },
+    { name: "Raihan Saputra", position: "Divisi Kepala 3 IMSN", image: "./assets/images/photos/pp.png" },
+    { name: "Miftahurrizka Afrah", position: "Kepala Divisi Event Management", image: "./assets/images/photos/pp.png" },
+    { name: "Chelsie Three Octary", position: "Divisi Kepala 5 IMSN", image: "./assets/images/photos/pp.png" },
 ];
+
 
 export default function Organization() {
     return (
@@ -20,7 +21,7 @@ export default function Organization() {
                     <MemberCard
                         name="Samuel Christian Sitompul"
                         position="Founder IMSN"
-                        image="./assets/images/minig.webp"
+                        image="./assets/images/photos/samuel.jpeg"
                     />
                     <div className="w-0.5 h-20 bg-gray-500"></div>
                 </div>
@@ -36,6 +37,7 @@ export default function Organization() {
                     ))}
                 </div>
             </div>
+            
             <Footer />
         </>
     );

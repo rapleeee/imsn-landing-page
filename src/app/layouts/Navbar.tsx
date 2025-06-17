@@ -16,9 +16,9 @@ function Navbar() {
   ];
 
   const categories = [
-    { name: "Our Journey", href: "/profile/journey" },
+    { name: "Our Journey", href: "/journey" },
     { name: "Struktur Organisasi", href: "/organization" },
-    { name: "Visi dan Misi", href: "/profile/vision-mission" },
+    { name: "Visi dan Misi", href: "#vision-mission", isScroll: true },  
   ];
 
   const categoriesPrograms = [
@@ -33,6 +33,16 @@ function Navbar() {
     },
     []
   );
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  if (href.startsWith('#')) {
+    e.preventDefault();
+    const element = document.getElementById(href.substring(1));
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+};
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 p-2 shadow-md bg-neutral-900">
@@ -50,10 +60,15 @@ function Navbar() {
                   <div className="p-2">
                     <span className="block px-4 py-2 text-neutral-100 font-bold">Our Profile</span>
                     {categories.map((category) => (
-                      <Link key={category.name} href={category.href} className="block px-4 py-2 text-sm hover:bg-[#C40000] hover:text-white">
-                        {category.name}
-                      </Link>
-                    ))}
+  <Link 
+    key={category.name} 
+    href={category.href} 
+    className="block px-4 py-2 text-sm hover:bg-[#C40000] hover:text-white"
+    onClick={(e) => category.isScroll ? handleScroll(e, category.href) : null}
+  >
+    {category.name}
+  </Link>
+))}
                   </div>
                 </div>
               )}

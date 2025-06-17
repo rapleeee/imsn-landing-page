@@ -13,22 +13,22 @@ function Section() {
     {
       icon: <img src="/download.png" alt="imsn" className="w-30 h-30" />,
       title: "5 Tahun",
-      description: "lorem ipsum dolor sit am eiusmod tempor incididunt ut labore et dolore mag n convallis nisi ut aliquip ex ea commodo consequat"
+      description: "IMSN telah berdiri sejak 2018, berkomitmen untuk menghubungkan mahasiswa, profesional, dan industri pertambangan di Indonesia."
     },
     {
       icon: <img src="/communities.png" alt="imsn" className="w-25 h-25 mb-5" />,
       title: "100 + Anggota",
-      description: "lorem ipsum dolor sit am eiusmod tempor incididunt ut labore et dolore mag n convallis nisi ut aliquip ex ea commodo consequat"
+      description: "IMSN memiliki lebih dari 100 anggota aktif yang terdiri dari mahasiswa, profesional, dan perusahaan pertambangan di Indonesia."
     },
     {
       icon: <img src="/download2.png" alt="imsn" className="w-30 h-30" />,
       title: "1000 + Partisipan",
-      description: "lorem Ipsum dolor sit am eiusmod tempor incididunt ut labore et dol lorem ipsum dolor sit am e"
+      description: "IMSN telah melibatkan lebih dari 1000 partisipan dalam berbagai acara, termasuk seminar, workshop, dan siltam."
     },
     {
       icon: <img src="/organization.png" alt="imsn" className="w-25 h-25 mb-5" />,
-      title: "1.803 Kerjasama",
-      description: "lorem ipsum dolor sit am eiusmod tempor incididunt ut labore et dolore mag n convallis nisi ut aliquip ex ea commodo consequat"
+      title: "100+ Kerjasama",
+      description: "IMSN telah menjalin lebih dari 100+ kerjasama dengan berbagai institusi, perusahaan, dan organisasi di bidang pertambangan."
     },
   ];
 
