@@ -2,7 +2,7 @@ import React from 'react';
 
 function VisiMisi() {
   return (
-    <div className="relative w-full h-screen">
+    <div id="vision-mission" className="relative w-full h-screen">
       <div className="absolute inset-0">
         <img 
           src="./assets/images/minig.webp" 
